@@ -10,8 +10,8 @@ android {
         applicationId "com.mengzhu.download.sdk"
         minSdkVersion 18
         targetSdkVersion 27
-        versionCode 1
-        versionName "1.0"
+        versionCode 1000100
+        versionName "1.0.1"
 
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
         ndk {
