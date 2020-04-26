@@ -7,7 +7,7 @@ android {
     }
 
     defaultConfig {
-        applicationId "com.mengzhu.download.sdk"
+        applicationId "com.mengzhu.download.sdk.demo"
         minSdkVersion 18
         targetSdkVersion 27
         versionCode 1000200

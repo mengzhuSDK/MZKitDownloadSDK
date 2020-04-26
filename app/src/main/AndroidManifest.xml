@@ -1,5 +1,5 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.mengzhu.download.sdk">
+    package="com.mengzhu.download.sdk.demo">
 
     <application
         android:allowBackup="true"
