@@ -47,7 +47,10 @@ task makeJar(type: proguard.gradle.ProGuardTask, dependsOn: "build") {
     configuration 'proguard-rules.pro'
 
 }
-
+afterEvaluate {
+    generateReleaseBuildConfig.enabled = false
+    generateDebugBuildConfig.enabled = false
+}
 
 //task makeJar(type: Copy) {
 //    delete 'build/libs/MZDownload.jar' //删除已经存在的jar包
